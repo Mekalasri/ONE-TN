@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("../images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.65);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  color: #fff;
+}
+
+audio {
+  width: 100%;
+  margin-top: 15px;
+}
